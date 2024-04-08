@@ -1,0 +1,13 @@
+{
+  "name": "Study buddy",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "A tab management extension",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["tabs"]
+}
